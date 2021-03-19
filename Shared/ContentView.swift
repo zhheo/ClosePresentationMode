@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showEditing = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Button(action: {
+                self.showEditing = true
+            }) {
+                Text("hello")
+            }
+            
+        }
+        .sheet(isPresented: $showEditing, content: {
+            EditingView()
+    })
     }
 }
 

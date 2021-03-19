@@ -13,6 +13,8 @@
 		0794DD7E2604407600B83E9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0794DD692604407400B83E9E /* ContentView.swift */; };
 		0794DD7F2604407600B83E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0794DD6A2604407600B83E9E /* Assets.xcassets */; };
 		0794DD802604407600B83E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0794DD6A2604407600B83E9E /* Assets.xcassets */; };
+		0794DD8C260440A000B83E9E /* EditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0794DD8B260440A000B83E9E /* EditingView.swift */; };
+		0794DD8D260440A000B83E9E /* EditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0794DD8B260440A000B83E9E /* EditingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		0794DD772604407600B83E9E /* ClosePresentationMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosePresentationMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0794DD792604407600B83E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0794DD7A2604407600B83E9E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		0794DD8B260440A000B83E9E /* EditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				0794DD682604407400B83E9E /* ClosePresentationModeApp.swift */,
 				0794DD692604407400B83E9E /* ContentView.swift */,
 				0794DD6A2604407600B83E9E /* Assets.xcassets */,
+				0794DD8B260440A000B83E9E /* EditingView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -187,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0794DD8C260440A000B83E9E /* EditingView.swift in Sources */,
 				0794DD7D2604407600B83E9E /* ContentView.swift in Sources */,
 				0794DD7B2604407600B83E9E /* ClosePresentationModeApp.swift in Sources */,
 			);
@@ -196,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0794DD8D260440A000B83E9E /* EditingView.swift in Sources */,
 				0794DD7E2604407600B83E9E /* ContentView.swift in Sources */,
 				0794DD7C2604407600B83E9E /* ClosePresentationModeApp.swift in Sources */,
 			);
